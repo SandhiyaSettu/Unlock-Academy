@@ -191,9 +191,11 @@ export default function Home() {
         <p>Email: unlockacademy@gmail.com | Phone: +91 98765 43210</p>
         <p className="mt-2">Location: Chennai, Tamil Nadu</p>
         <div className="mt-6 flex justify-center gap-6">
-          <a href="#" className="hover:text-white">Instagram</a>
-          <a href="#" className="hover:text-white">YouTube</a>
-          <a href="#" className="hover:text-white">Twitter</a>
+          <div className="mt-6 flex justify-center gap-6">
+  <button className="hover:text-white">Instagram</button>
+  <button className="hover:text-white">YouTube</button>
+  <button className="hover:text-white">Twitter</button>
+</div>
         </div>
         <p className="mt-6 text-sm text-gray-500">
           © {new Date().getFullYear()} UNLOCK Academy of Dance & Music. All
