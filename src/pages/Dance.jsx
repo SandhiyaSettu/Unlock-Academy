@@ -118,15 +118,31 @@ export default function Dance() {
       </section>
 
       {/* 8. Gallery */}
-      <section className="p-10 text-center">
-        <h2 className="text-3xl font-bold mb-6">Gallery</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="https://source.unsplash.com/300x300/?dance" className="rounded-lg" />
-          <img src="https://source.unsplash.com/301x301/?hiphop" className="rounded-lg" />
-          <img src="https://source.unsplash.com/302x302/?classical-dance" className="rounded-lg" />
-          <img src="https://source.unsplash.com/303x303/?stage,dance" className="rounded-lg" />
-        </div>
-      </section>
+<section className="p-10 text-center">
+  <h2 className="text-3xl font-bold mb-6">Gallery</h2>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <img 
+      src="https://source.unsplash.com/300x300/?dance" 
+      alt="Dance performance" 
+      className="rounded-lg" 
+    />
+    <img 
+      src="https://source.unsplash.com/301x301/?hiphop" 
+      alt="Hip hop dance style" 
+      className="rounded-lg" 
+    />
+    <img 
+      src="https://source.unsplash.com/302x302/?classical-dance" 
+      alt="Classical dance performance" 
+      className="rounded-lg" 
+    />
+    <img 
+      src="https://source.unsplash.com/303x303/?stage,dance" 
+      alt="Stage dance show" 
+      className="rounded-lg" 
+    />
+  </div>
+</section>
 
       {/* 9. Admissions / Registration */}
       <section className="p-10 bg-gray-100 text-center">
