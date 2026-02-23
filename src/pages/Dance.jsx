@@ -195,11 +195,17 @@ export default function Dance() {
           className="w-full py-3 bg-blue-600 text-white rounded-lg">Submit</button>
         </form>
         <p className="mt-6">Phone: +91-9876543210 | WhatsApp: +91-9876543211</p>
-        <iframe 
-src="https://www.google.com/maps?q=Panimalar+Engineering+College+Chennai&output=embed"          width="100%" height="300" style={{ border: 0 }} 
-          allowFullScreen="" loading="lazy" 
-          className="rounded-lg mt-6">
-        </iframe>
+<iframe
+  src="https://www.google.com/maps?q=Panimalar+Engineering+College+Chennai&output=embed"
+  title="Panimalar Engineering College Chennai Map"
+  width="100%"
+  height="300"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  className="rounded-lg mt-6"
+>
+</iframe>
       </section>
     </div>
   );
