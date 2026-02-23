@@ -162,11 +162,17 @@ export default function Music() {
       <section className="p-10 bg-gray-100 text-center">
         <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
         <p>Email: info@unlockacademy.com | Phone: +91-9876543210</p>
-        <iframe 
-src="https://www.google.com/maps?q=Panimalar+Engineering+College+Chennai&output=embed"          width="100%" height="300" style={{ border: 0 }} 
-          allowFullScreen="" loading="lazy" 
-          className="rounded-lg mt-6">
-        </iframe>
+       <iframe
+  src="https://www.google.com/maps?q=Panimalar+Engineering+College+Chennai&output=embed"
+  title="Panimalar Engineering College Location Map"
+  width="100%"
+  height="300"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  className="rounded-lg mt-6"
+>
+</iframe>
       </section>
     </div>
   );
