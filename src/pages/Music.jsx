@@ -121,16 +121,32 @@ export default function Music() {
         </form>
       </section>
 
-      {/* 9. Gallery */}
-      <section className="p-10 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-6">Gallery</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src="https://source.unsplash.com/300x300/?guitar" className="rounded-lg" />
-          <img src="https://source.unsplash.com/301x301/?concert" className="rounded-lg" />
-          <img src="https://source.unsplash.com/302x302/?music" className="rounded-lg" />
-          <img src="https://source.unsplash.com/303x303/?band" className="rounded-lg" />
-        </div>
-      </section>
+     {/* 9. Gallery */}
+<section className="p-10 bg-gray-100 text-center">
+  <h2 className="text-3xl font-bold mb-6">Gallery</h2>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <img 
+      src="https://source.unsplash.com/300x300/?guitar" 
+      alt="Guitar performance" 
+      className="rounded-lg" 
+    />
+    <img 
+      src="https://source.unsplash.com/301x301/?concert" 
+      alt="Live concert stage" 
+      className="rounded-lg" 
+    />
+    <img 
+      src="https://source.unsplash.com/302x302/?music" 
+      alt="Music class session" 
+      className="rounded-lg" 
+    />
+    <img 
+      src="https://source.unsplash.com/303x303/?band" 
+      alt="Band performing on stage" 
+      className="rounded-lg" 
+    />
+  </div>
+</section>
 
       {/* 10. Blog */}
       <section className="p-10 text-center">
